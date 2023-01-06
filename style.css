@@ -3,13 +3,13 @@
     
     font-size: 18px;
     line-height: 55.99px;
-    overflow: hidden;
+   
    
 }
 .sidebar_content a:hover { 
     
     text-decoration: none;
-    overflow: hidden;
+  
 }
 .sidebar{
     
@@ -59,18 +59,19 @@
 }
 
 .admin {
-    height: 56px;
-display: inline-flexbox;
-
+height: 56px;
 overflow: hidden;
 }
 
 .sidebar_content a{
-    
 text-decoration: none;
 color: white;
 }
 
+.sidebar_content a:focus {
+    text-decoration: none;
+    color: white;
+    }
 
 .style a{
     position: relative;
